@@ -1,0 +1,20 @@
+{
+    // Qt路径配置
+  "qttools.qtDir": "D:/Qt/6.5.3/mingw_64", // Qt安装路径
+  "qttools.cmakeGenerator": "MinGW Makefiles", // 编译器生成器
+  
+  "cmake.configureSettings": {
+    "CMAKE_PREFIX_PATH": "D:/Qt/6.5.3/mingw_64" // Qt安装路径
+  },
+
+  // C++扩展配置
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**",
+    "D:/Qt/6.5.3/mingw_64/include/**", // Qt头文件
+    "D:/Qt/6.5.3/mingw_64/include/QtCore/**",
+    "D:/Qt/6.5.3/mingw_64/include/QtGui/**",
+    "D:/Qt/6.5.3/mingw_64/include/QtWidgets/**"
+  ],
+  "C_Cpp.default.compilerPath": "D:/Qt/Tools/mingw1120_64/bin/g++.exe", // 编译器路径
+  "C_Cpp.default.cppStandard": "c++17" // Qt 6推荐C++17标准
+}

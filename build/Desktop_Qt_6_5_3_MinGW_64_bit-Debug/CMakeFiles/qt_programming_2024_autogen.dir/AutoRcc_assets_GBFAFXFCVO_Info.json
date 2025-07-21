@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master",
+	"CMAKE_SOURCE_DIR" : "C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/Items/HeadEquipments/CapOfTheHero/BotW_Cap_of_the_Hero_Icon.png",
+		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/Items/Armors/FlamebreakerArmor/BotW_Flamebreaker_Armor_Icon.png",
+		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/Items/Armors/OldShirt/BotW_Old_Shirt_Icon.png",
+		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/Items/Maps/Battlefield/g9tOqth.png",
+		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/Items/LegEquipments/WellWornTrousers/BotW_Well-Worn_Trousers_Icon.png"
+	],
+	"LOCK_FILE" : "C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/CMakeFiles/qt_programming_2024_autogen.dir/AutoRcc_assets_GBFAFXFCVO_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "assets" ],
+	"OUTPUT_CHECKSUM" : "GBFAFXFCVO",
+	"OUTPUT_NAME" : "qrc_assets.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/6.5.3/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/CMakeFiles/qt_programming_2024_autogen.dir/AutoRcc_assets_GBFAFXFCVO_Used.txt",
+	"SOURCE" : "C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/assets.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}
