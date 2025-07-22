@@ -1,20 +1,15 @@
 C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/SNE2VJ5FQV/moc_BattleScene.cpp: C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/BattleScene.h \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/moc_predefs.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Armors/Armor.h \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/HeadEquipments/HeadEquipment.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Item.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/LegEquipments/LegEquipment.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Maps/Map.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Mountable.h \
+  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Link.h \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/Scene.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/QList \
   D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/QPointF \
   D:/Qt/6.5.3/mingw_64/include/QtCore/QRect \
   D:/Qt/6.5.3/mingw_64/include/QtCore/QSize \
   D:/Qt/6.5.3/mingw_64/include/QtCore/QSizeF \
   D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/QtGlobal \
   D:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/q20type_traits.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qalgorithms.h \
@@ -131,20 +126,17 @@ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt
   D:/Qt/6.5.3/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qxptype_traits.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/QKeyEvent \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/QPainter \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
   D:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qcolor.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qevent.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qeventpoint.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qinputdevice.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qkeysequence.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpaintdevice.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpainterpath.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
@@ -155,7 +147,6 @@ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt
   D:/Qt/6.5.3/mingw_64/include/QtGui/qrgb.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qscreen.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtgui-config.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiexports.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiglobal.h \
@@ -164,7 +155,6 @@ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt
   D:/Qt/6.5.3/mingw_64/include/QtGui/qvectornd.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
-  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsEllipseItem \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \

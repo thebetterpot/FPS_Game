@@ -1,24 +1,20 @@
-//
-// Created by gerw on 8/20/24.
-//
+#ifndef MYGAME_H
+#define MYGAME_H
 
-#ifndef QT_PROGRAMMING_2024_MYGAME_H
-#define QT_PROGRAMMING_2024_MYGAME_H
-
-#include <QGraphicsView>
 #include <QMainWindow>
-#include "Scenes/Scene.h"
+#include "Scenes/BattleScene.h"
+#include <QGraphicsView>
 
 class MyGame : public QMainWindow {
-Q_OBJECT
+    Q_OBJECT
 
 public:
-    explicit MyGame(QWidget *parent = nullptr);
+    MyGame(QWidget *parent = nullptr);
+    ~MyGame() override;
 
 private:
-    Scene *battleScene;
-    QGraphicsView *view;
+    BattleScene *battleScene; // 战斗场景
+    QGraphicsView *view;      // 图形视图
 };
 
-
-#endif //QT_PROGRAMMING_2024_MYGAME_H
+#endif // MYGAME_H

@@ -1,52 +1,40 @@
-//
-// Created by gerw on 8/20/24.
-//
+#ifndef CHARACTER_H
+#define CHARACTER_H
 
-#ifndef QT_PROGRAMMING_2024_CHARACTER_H
-#define QT_PROGRAMMING_2024_CHARACTER_H
+#include <QGraphicsItem>
+#include <QKeyEvent>
+#include <QPixmap>
 
-#include <QGraphicsEllipseItem>
-#include "../HeadEquipments/HeadEquipment.h"
-#include "../Armors/Armor.h"
-#include "../LegEquipments/LegEquipment.h"
-
-class Character : public Item {
+class Character : public QGraphicsItem {
 public:
-    explicit Character(QGraphicsItem *parent);
+    Character(int playerId, QGraphicsItem *parent = nullptr);
+    ~Character() override;
 
-    [[nodiscard]] bool isLeftDown() const;
+    // 图形项必需实现的函数
+    QRectF boundingRect() const override;
+    void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override;
 
-    void setLeftDown(bool leftDown);
+    // 按键事件处理
+    void keyPressEvent(QKeyEvent *event) override;
+    void keyReleaseEvent(QKeyEvent *event) override;
 
-    [[nodiscard]] bool isRightDown() const;
+    // 外部设置按键状态
+    void setLeftPressed(bool pressed);
+    void setRightPressed(bool pressed);
+    void setCrouchPressed(bool pressed);
+    void setJumpPressed(bool pressed);
 
-    void setRightDown(bool rightDown);
+    // 获取移动速度
+    QPointF velocity() const;
 
-    [[nodiscard]] bool isPickDown() const;
-
-    void setPickDown(bool pickDown);
-
-    [[nodiscard]] const QPointF &getVelocity() const;
-
-    [[nodiscard]] bool isPicking() const;
-
-    void setVelocity(const QPointF &velocity);
-
-    void processInput();
-
-    Armor* pickupArmor(Armor* newArmor);
-
-protected:
-    HeadEquipment *headEquipment{};
-    LegEquipment *legEquipment{};
-    Armor *armor{};
-    QPointF velocity{};
-//    QGraphicsEllipseItem *ellipseItem; // for debugging
 private:
-    bool leftDown{}, rightDown{}, pickDown{};
-    bool lastPickDown{};
-    bool picking{};
+    int m_playerId; // 玩家ID（1或2）
+    // 按键状态
+    bool m_leftPressed;
+    bool m_rightPressed;
+    bool m_crouchPressed;
+    bool m_jumpPressed;
+    QPixmap m_spriteSheet; // 角色素材
 };
 
-
-#endif //QT_PROGRAMMING_2024_CHARACTER_H
+#endif // CHARACTER_H

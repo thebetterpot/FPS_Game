@@ -7,32 +7,29 @@
 
 #include <QGraphicsScene>
 #include <QTimer>
+#include <QtGlobal>
 
 class Scene : public QGraphicsScene {
-Q_OBJECT
+    Q_OBJECT
 
 public:
-    explicit Scene(QObject *parent);
-
+    explicit Scene(QObject *parent = nullptr);
     void startLoop();
 
-    virtual void processInput();
-
-    virtual void processMovement();
-
-    virtual void processPicking();
+protected:
+    virtual void processInput() = 0;
+    virtual void processMovement() = 0;
+    virtual void processPicking() = 0;
 
 protected slots:
+    void onUpdate();
 
-    virtual void update();
-
-protected:
+protected: // 关键修改：deltaTime 改为 protected
     qint64 deltaTime{};
 
 private:
     QTimer *timer;
-    qint64 lastTime{-1};
+    qint64 lastTime = -1;
 };
-
 
 #endif //QT_PROGRAMMING_2024_SCENE_H

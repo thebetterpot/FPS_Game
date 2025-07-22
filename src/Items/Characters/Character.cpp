@@ -1,84 +1,72 @@
-//
-// Created by gerw on 8/20/24.
-//
-
-#include <QTransform>
 #include "Character.h"
+#include <QPainter>
+#include <QDebug>
 
-Character::Character(QGraphicsItem *parent) : Item(parent, "") {
-//    ellipseItem = new QGraphicsEllipseItem(-5, -5, 10, 10, this);
-//    // Optionally, set some properties of the ellipse
-//    ellipseItem->setBrush(Qt::green);          // Fill color
-//    ellipseItem->setZValue(1);
-}
-
-bool Character::isLeftDown() const {
-    return leftDown;
-}
-
-void Character::setLeftDown(bool leftDown) {
-    Character::leftDown = leftDown;
-}
-
-bool Character::isRightDown() const {
-    return rightDown;
-}
-
-void Character::setRightDown(bool rightDown) {
-    Character::rightDown = rightDown;
-}
-
-bool Character::isPickDown() const {
-    return pickDown;
-}
-
-void Character::setPickDown(bool pickDown) {
-    Character::pickDown = pickDown;
-}
-
-const QPointF &Character::getVelocity() const {
-    return velocity;
-}
-
-void Character::setVelocity(const QPointF &velocity) {
-    Character::velocity = velocity;
-}
-
-void Character::processInput() {
-    auto velocity = QPointF(0, 0);
-    const auto moveSpeed = 0.3;
-    if (isLeftDown()) {
-        velocity.setX(velocity.x() - moveSpeed);
-        setTransform(QTransform().scale(1, 1));
+Character::Character(int playerId, QGraphicsItem *parent)
+    : QGraphicsItem(parent), m_playerId(playerId),
+    m_leftPressed(false), m_rightPressed(false),
+    m_crouchPressed(false), m_jumpPressed(false),
+    m_spriteSheet(":/character.png") // 加载自定义素材
+{
+    // 检查素材加载状态
+    if (m_spriteSheet.isNull()) {
+        qWarning() << "警告：角色素材加载失败！请检查资源路径是否正确";
     }
-    if (isRightDown()) {
-        velocity.setX(velocity.x() + moveSpeed);
-        setTransform(QTransform().scale(-1, 1));
-    }
-    setVelocity(velocity);
+}
 
-    if (!lastPickDown && pickDown) { // first time pickDown
-        picking = true;
+Character::~Character() {}
+
+// 定义角色碰撞箱/绘制区域
+QRectF Character::boundingRect() const {
+    return QRectF(0, 0, 48, 48); // 角色尺寸（48x48像素）
+}
+
+// 绘制角色
+void Character::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) {
+    Q_UNUSED(option);
+    Q_UNUSED(widget);
+
+    if (!m_spriteSheet.isNull()) {
+        // 绘制自定义素材
+        painter->drawPixmap(boundingRect().toRect(), m_spriteSheet);
     } else {
-        picking = false;
+        // 素材加载失败时绘制红色方块作为占位
+        painter->fillRect(boundingRect(), Qt::red);
     }
-    lastPickDown = pickDown;
 }
 
-bool Character::isPicking() const {
-    return picking;
-}
-
-Armor *Character::pickupArmor(Armor *newArmor) {
-    auto oldArmor = armor;
-    if (oldArmor != nullptr) {
-        oldArmor->unmount();
-        oldArmor->setPos(newArmor->pos());
-        oldArmor->setParentItem(parentItem());
+// 处理按键按下事件
+void Character::keyPressEvent(QKeyEvent *event) {
+    switch (event->key()) {
+    case Qt::Key_Left:  m_leftPressed = true;  break;
+    case Qt::Key_Right: m_rightPressed = true; break;
+    case Qt::Key_Down:  m_crouchPressed = true; break;
+    case Qt::Key_Up:    m_jumpPressed = true;   break;
+    default: QGraphicsItem::keyPressEvent(event);
     }
-    newArmor->setParentItem(this);
-    newArmor->mountToParent();
-    armor = newArmor;
-    return oldArmor;
 }
 
+// 处理按键释放事件
+void Character::keyReleaseEvent(QKeyEvent *event) {
+    switch (event->key()) {
+    case Qt::Key_Left:  m_leftPressed = false;  break;
+    case Qt::Key_Right: m_rightPressed = false; break;
+    case Qt::Key_Down:  m_crouchPressed = false; break;
+    case Qt::Key_Up:    m_jumpPressed = false;   break;
+    default: QGraphicsItem::keyReleaseEvent(event);
+    }
+}
+
+// 外部设置按键状态的函数
+void Character::setLeftPressed(bool pressed)  { m_leftPressed = pressed; }
+void Character::setRightPressed(bool pressed) { m_rightPressed = pressed; }
+void Character::setCrouchPressed(bool pressed) { m_crouchPressed = pressed; }
+void Character::setJumpPressed(bool pressed)  { m_jumpPressed = pressed; }
+
+// 计算移动速度
+QPointF Character::velocity() const {
+    qreal xVelocity = 0;
+    if (m_leftPressed)  xVelocity = -5;  // 左移速度
+    if (m_rightPressed) xVelocity = 5;   // 右移速度
+    return QPointF(xVelocity, 0);        // 暂时只处理水平移动
+}

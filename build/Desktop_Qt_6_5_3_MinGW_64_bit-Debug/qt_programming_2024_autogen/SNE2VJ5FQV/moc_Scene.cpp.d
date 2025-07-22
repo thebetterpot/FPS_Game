@@ -1,6 +1,7 @@
 C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/SNE2VJ5FQV/moc_Scene.cpp: C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/Scene.h \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/moc_predefs.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/QtGlobal \
   D:/Qt/6.5.3/mingw_64/include/QtCore/q20type_traits.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qalgorithms.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qanystringview.h \
