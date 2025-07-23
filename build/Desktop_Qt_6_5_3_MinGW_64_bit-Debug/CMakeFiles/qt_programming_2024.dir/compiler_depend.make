@@ -9,6 +9,8 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/MyGame.h \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/BattleScene.h \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/Scene.h \
+  qt_programming_2024_autogen/KRBJEFP6ZJ/moc_Character.cpp \
+  qt_programming_2024_autogen/KRBJEFP6ZJ/moc_Link.cpp \
   qt_programming_2024_autogen/SNE2VJ5FQV/moc_BattleScene.cpp \
   qt_programming_2024_autogen/SNE2VJ5FQV/moc_Scene.cpp \
   qt_programming_2024_autogen/UVLADIE3JM/moc_MyGame.cpp \
@@ -405,10 +407,11 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
 CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.cpp \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/QDebug \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/QList \
   D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/QPointF \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/QVector \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/QRect \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/QSize \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/QSizeF \
   D:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/q20type_traits.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qalgorithms.h \
@@ -420,7 +423,6 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: C:/Us
   D:/Qt/6.5.3/mingw_64/include/QtCore/qatomic.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qatomic_cxx11.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qbasicatomic.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qbindingstorage.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qbytearray.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -436,6 +438,7 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: C:/Us
   D:/Qt/6.5.3/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/qcoreevent.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qdatastream.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h \
@@ -449,6 +452,7 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: C:/Us
   D:/Qt/6.5.3/mingw_64/include/QtCore/qglobalstatic.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qhash.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qhashfunctions.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevice.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevicebase.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qiterable.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qiterator.h \
@@ -463,6 +467,7 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: C:/Us
   D:/Qt/6.5.3/mingw_64/include/QtCore/qmetatype.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qminmax.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qnamespace.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/qnativeinterface.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qnumeric.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qobject_impl.h \
@@ -471,6 +476,7 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: C:/Us
   D:/Qt/6.5.3/mingw_64/include/QtCore/qoverload.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qpair.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qpoint.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/qpointer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qprocessordetection.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qrect.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qrefcount.h \
@@ -503,7 +509,6 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: C:/Us
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtextstream.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtmetamacros.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtnoop.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -514,31 +519,48 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: C:/Us
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtversionchecks.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtypeinfo.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtypes.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/qurl.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qutf8stringview.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qvariant.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qvarlengtharray.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qvector.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qxptype_traits.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/QKeyEvent \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/QPainter \
   D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
   D:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qcolor.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qevent.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qeventpoint.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qinputdevice.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qkeysequence.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpaintdevice.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpainterpath.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qpointingdevice.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpolygon.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qregion.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qrgb.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qscreen.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtgui-config.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiexports.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiglobal.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qvector2d.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qvectornd.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
-  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
+  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -755,20 +777,13 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: C:/Us
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
 
 CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Link.cpp \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Armors/Armor.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Armors/OldShirt.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/HeadEquipments/CapOfTheHero.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/HeadEquipments/HeadEquipment.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Item.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/LegEquipments/LegEquipment.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/LegEquipments/WellWornTrousers.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Mountable.h \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Link.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/QList \
   D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/QPointF \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/QVector \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/QRect \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/QSize \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/QSizeF \
   D:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/q20type_traits.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qalgorithms.h \
@@ -780,7 +795,6 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: C:/Users/g
   D:/Qt/6.5.3/mingw_64/include/QtCore/qatomic.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qatomic_cxx11.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qbasicatomic.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qbindingstorage.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qbytearray.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -796,6 +810,7 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: C:/Users/g
   D:/Qt/6.5.3/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/qcoreevent.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qdatastream.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h \
@@ -809,6 +824,7 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: C:/Users/g
   D:/Qt/6.5.3/mingw_64/include/QtCore/qglobalstatic.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qhash.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qhashfunctions.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevice.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevicebase.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qiterable.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qiterator.h \
@@ -823,6 +839,7 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: C:/Users/g
   D:/Qt/6.5.3/mingw_64/include/QtCore/qmetatype.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qminmax.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qnamespace.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/qnativeinterface.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qnumeric.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qobject_impl.h \
@@ -831,6 +848,7 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: C:/Users/g
   D:/Qt/6.5.3/mingw_64/include/QtCore/qoverload.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qpair.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qpoint.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/qpointer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qprocessordetection.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qrect.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qrefcount.h \
@@ -863,7 +881,6 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: C:/Users/g
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtextstream.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtmetamacros.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtnoop.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -874,39 +891,40 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: C:/Users/g
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtversionchecks.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtypeinfo.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtypes.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/qurl.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qutf8stringview.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qvariant.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qvarlengtharray.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qvector.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qxptype_traits.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/QPainter \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/QKeyEvent \
   D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qcolor.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qevent.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qeventpoint.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qinputdevice.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qkeysequence.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpaintdevice.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpainterpath.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qpointingdevice.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpolygon.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qregion.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qrgb.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qscreen.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtgui-config.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiexports.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiglobal.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qvector2d.h \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/qvectornd.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
-  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -1677,6 +1695,7 @@ CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj: C:/Users/gyh4
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
+  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
@@ -2659,6 +2678,8 @@ D:/Qt/6.5.3/mingw_64/include/QtCore/qbindingstorage.h:
 
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp:
 
+qt_programming_2024_autogen/KRBJEFP6ZJ/moc_Character.cpp:
+
 D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qtconfigmacros.h:
@@ -2672,10 +2693,6 @@ D:/Qt/6.5.3/mingw_64/include/QtCore/qarraydataops.h:
 D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/limits.h:
 
 C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h:
-
-D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h:
-
-qt_programming_2024_autogen/SNE2VJ5FQV/moc_BattleScene.cpp:
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/version:
 
@@ -2708,6 +2725,14 @@ D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevice.h:
 D:/Qt/6.5.3/mingw_64/include/QtCore/qeventloop.h:
 
 C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/MyGame.h:
+
+D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+qt_programming_2024_autogen/KRBJEFP6ZJ/moc_Link.cpp:
+
+D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h:
+
+qt_programming_2024_autogen/SNE2VJ5FQV/moc_BattleScene.cpp:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qcompilerdetection.h:
 
@@ -2747,8 +2772,6 @@ D:/Qt/6.5.3/mingw_64/include/QtCore/qtaggedpointer.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/QtGlobal:
 
-C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/LegEquipments/LegEquipment.h:
-
 D:/Qt/6.5.3/mingw_64/include/QtCore/qatomic_cxx11.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h:
@@ -2762,10 +2785,6 @@ D:/Qt/6.5.3/mingw_64/include/QtCore/qalgorithms.h:
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qanystringview.h:
-
-D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
-
-D:/Qt/6.5.3/mingw_64/include/QtCore/qline.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qminmax.h:
 
@@ -2869,6 +2888,10 @@ D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qiterator.h:
 
+D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
+
+D:/Qt/6.5.3/mingw_64/include/QtCore/qline.h:
+
 D:/Qt/6.5.3/mingw_64/include/QtCore/qlist.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap:
@@ -2896,8 +2919,6 @@ D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h:
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qobject_impl.h:
-
-D:/Qt/6.5.3/mingw_64/include/QtCore/qvector.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs.h:
 
@@ -3153,8 +3174,6 @@ D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar:
 
 D:/Qt/6.5.3/mingw_64/include/QtWidgets/qabstractscrollarea.h:
 
-C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/HeadEquipments/HeadEquipment.h:
-
 D:/Qt/6.5.3/mingw_64/include/QtWidgets/qmainwindow.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtWidgets/qframe.h:
@@ -3231,8 +3250,6 @@ D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/modif
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h:
 
-C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Mountable.h:
-
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h:
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/specfun.h:
@@ -3271,8 +3288,6 @@ D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/node_handle.h:
 
-C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Item.h:
-
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h:
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/parse_numbers.h:
@@ -3305,8 +3320,6 @@ D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype:
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h:
 
-D:/Qt/6.5.3/mingw_64/include/QtCore/QVector:
-
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h:
 
 D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/math.h:
@@ -3326,8 +3339,6 @@ D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tree.h:
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h:
-
-D:/Qt/6.5.3/mingw_64/include/QtCore/QPointF:
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stream_iterator.h:
 
@@ -3427,10 +3438,6 @@ D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector:
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 
-D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
-
-C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Armors/Armor.h:
-
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
@@ -3493,17 +3500,11 @@ D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h:
 
 C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.cpp:
 
-D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem:
-
-C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Armors/OldShirt.h:
-
-C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/HeadEquipments/CapOfTheHero.h:
-
-C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/LegEquipments/WellWornTrousers.h:
-
 D:/Qt/6.5.3/mingw_64/include/QtCore/qcoreapplication.h:
 
 C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/BattleScene.cpp:
+
+D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qcalendar.h:
 

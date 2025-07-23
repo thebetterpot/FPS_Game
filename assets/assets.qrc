@@ -1,6 +1,12 @@
 <RCC>
     <qresource prefix="/">
-        <!-- 注册character.png，与文件实际位置对应 -->
-        <file alias="character.png">character.png</file>
+        <!-- 角色素材 -->
+        <file alias="character1.png">character1.png</file>  <!-- 玩家1素材（九宫格144x144） -->
+        <file alias="character2.png">character2.png</file>  <!-- 玩家2素材（九宫格144x144） -->
+
+        <!-- 地图素材 -->
+        <file alias="map_tu.png">map_tu.png</file>      <!-- 底部地图 -->
+        <file alias="map_cao.png">map_cao.png</file>    <!-- 中层地图（偏左） -->
+        <file alias="map_bing.png">map_bing.png</file>  <!-- 上层地图（偏右） -->
     </qresource>
 </RCC>

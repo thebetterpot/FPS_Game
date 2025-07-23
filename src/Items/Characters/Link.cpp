@@ -1,7 +1,6 @@
 #include "Link.h"
 
-// 初始化Link角色（继承自Character，使用相同素材）
 Link::Link(int playerId, QGraphicsItem *parent)
-    : Character(playerId, parent) {
-    // 可在此添加Link角色的专属逻辑
+    : Character(playerId, ":/character1.png", parent) { // 补充精灵图路径
+    // 可添加Link专属逻辑
 }

@@ -20,11 +20,19 @@ protected:
     void keyReleaseEvent(QKeyEvent *event) override;
 
 private:
-    Character *player1; // Link 角色
-    Character *player2; // 通用角色
+    // 场景尺寸常量
+    static const int SCENE_WIDTH = 1280;
+    static const int SCENE_HEIGHT = 720;
+
+    // 角色指针
+    Character *player1 = nullptr;  // Link
+    Character *player2 = nullptr;  // 通用角色
+
+    // 输入状态
     bool p1Left = false, p1Right = false, p1Crouch = false, p1Jump = false;
     bool p2Left = false, p2Right = false, p2Crouch = false, p2Jump = false;
 
+    // 同步输入到角色
     void syncPlayerInputs();
 };
 
