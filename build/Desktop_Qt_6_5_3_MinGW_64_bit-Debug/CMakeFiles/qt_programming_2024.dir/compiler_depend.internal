@@ -11,8 +11,6 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/MyGame.h
  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/BattleScene.h
  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/Scene.h
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/KRBJEFP6ZJ/moc_Character.cpp
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/KRBJEFP6ZJ/moc_Link.cpp
  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/SNE2VJ5FQV/moc_BattleScene.cpp
  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/SNE2VJ5FQV/moc_Scene.cpp
  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/UVLADIE3JM/moc_MyGame.cpp
@@ -1701,7 +1699,6 @@ CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj
  D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h
  D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h

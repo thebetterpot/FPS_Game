@@ -9,8 +9,6 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/MyGame.h \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/BattleScene.h \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/Scene.h \
-  qt_programming_2024_autogen/KRBJEFP6ZJ/moc_Character.cpp \
-  qt_programming_2024_autogen/KRBJEFP6ZJ/moc_Link.cpp \
   qt_programming_2024_autogen/SNE2VJ5FQV/moc_BattleScene.cpp \
   qt_programming_2024_autogen/SNE2VJ5FQV/moc_Scene.cpp \
   qt_programming_2024_autogen/UVLADIE3JM/moc_MyGame.cpp \
@@ -1695,7 +1693,6 @@ CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj: C:/Users/gyh4
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
-  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
@@ -2678,8 +2675,6 @@ D:/Qt/6.5.3/mingw_64/include/QtCore/qbindingstorage.h:
 
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp:
 
-qt_programming_2024_autogen/KRBJEFP6ZJ/moc_Character.cpp:
-
 D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qtconfigmacros.h:
@@ -2693,6 +2688,10 @@ D:/Qt/6.5.3/mingw_64/include/QtCore/qarraydataops.h:
 D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/limits.h:
 
 C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h:
+
+D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h:
+
+qt_programming_2024_autogen/SNE2VJ5FQV/moc_BattleScene.cpp:
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/version:
 
@@ -2725,14 +2724,6 @@ D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevice.h:
 D:/Qt/6.5.3/mingw_64/include/QtCore/qeventloop.h:
 
 C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/MyGame.h:
-
-D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
-
-qt_programming_2024_autogen/KRBJEFP6ZJ/moc_Link.cpp:
-
-D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h:
-
-qt_programming_2024_autogen/SNE2VJ5FQV/moc_BattleScene.cpp:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qcompilerdetection.h:
 
@@ -2785,6 +2776,10 @@ D:/Qt/6.5.3/mingw_64/include/QtCore/qalgorithms.h:
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qanystringview.h:
+
+D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
+
+D:/Qt/6.5.3/mingw_64/include/QtCore/qline.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qminmax.h:
 
@@ -2887,10 +2882,6 @@ D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevicebase.h:
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_numeric_defs.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qiterator.h:
-
-D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
-
-D:/Qt/6.5.3/mingw_64/include/QtCore/qline.h:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qlist.h:
 
@@ -3438,6 +3429,8 @@ D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector:
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 
+D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
+
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
@@ -3503,8 +3496,6 @@ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt
 D:/Qt/6.5.3/mingw_64/include/QtCore/qcoreapplication.h:
 
 C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/BattleScene.cpp:
-
-D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem:
 
 D:/Qt/6.5.3/mingw_64/include/QtCore/qcalendar.h:
 
