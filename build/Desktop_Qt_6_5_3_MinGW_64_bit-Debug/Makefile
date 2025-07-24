@@ -250,6 +250,78 @@ src/Items/Characters/Link.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.s
 .PHONY : src/Items/Characters/Link.cpp.s
 
+src/Items/Maps/Battlefield.obj: src/Items/Maps/Battlefield.cpp.obj
+.PHONY : src/Items/Maps/Battlefield.obj
+
+# target to build an object file
+src/Items/Maps/Battlefield.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Battlefield.cpp.obj
+.PHONY : src/Items/Maps/Battlefield.cpp.obj
+
+src/Items/Maps/Battlefield.i: src/Items/Maps/Battlefield.cpp.i
+.PHONY : src/Items/Maps/Battlefield.i
+
+# target to preprocess a source file
+src/Items/Maps/Battlefield.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Battlefield.cpp.i
+.PHONY : src/Items/Maps/Battlefield.cpp.i
+
+src/Items/Maps/Battlefield.s: src/Items/Maps/Battlefield.cpp.s
+.PHONY : src/Items/Maps/Battlefield.s
+
+# target to generate assembly for a file
+src/Items/Maps/Battlefield.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Battlefield.cpp.s
+.PHONY : src/Items/Maps/Battlefield.cpp.s
+
+src/Items/Maps/Map.obj: src/Items/Maps/Map.cpp.obj
+.PHONY : src/Items/Maps/Map.obj
+
+# target to build an object file
+src/Items/Maps/Map.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Map.cpp.obj
+.PHONY : src/Items/Maps/Map.cpp.obj
+
+src/Items/Maps/Map.i: src/Items/Maps/Map.cpp.i
+.PHONY : src/Items/Maps/Map.i
+
+# target to preprocess a source file
+src/Items/Maps/Map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Map.cpp.i
+.PHONY : src/Items/Maps/Map.cpp.i
+
+src/Items/Maps/Map.s: src/Items/Maps/Map.cpp.s
+.PHONY : src/Items/Maps/Map.s
+
+# target to generate assembly for a file
+src/Items/Maps/Map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Map.cpp.s
+.PHONY : src/Items/Maps/Map.cpp.s
+
+src/Items/Mountable.obj: src/Items/Mountable.cpp.obj
+.PHONY : src/Items/Mountable.obj
+
+# target to build an object file
+src/Items/Mountable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Mountable.cpp.obj
+.PHONY : src/Items/Mountable.cpp.obj
+
+src/Items/Mountable.i: src/Items/Mountable.cpp.i
+.PHONY : src/Items/Mountable.i
+
+# target to preprocess a source file
+src/Items/Mountable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Mountable.cpp.i
+.PHONY : src/Items/Mountable.cpp.i
+
+src/Items/Mountable.s: src/Items/Mountable.cpp.s
+.PHONY : src/Items/Mountable.s
+
+# target to generate assembly for a file
+src/Items/Mountable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Mountable.cpp.s
+.PHONY : src/Items/Mountable.cpp.s
+
 src/MyGame.obj: src/MyGame.cpp.obj
 .PHONY : src/MyGame.obj
 
@@ -369,6 +441,15 @@ help:
 	@echo ... src/Items/Characters/Link.obj
 	@echo ... src/Items/Characters/Link.i
 	@echo ... src/Items/Characters/Link.s
+	@echo ... src/Items/Maps/Battlefield.obj
+	@echo ... src/Items/Maps/Battlefield.i
+	@echo ... src/Items/Maps/Battlefield.s
+	@echo ... src/Items/Maps/Map.obj
+	@echo ... src/Items/Maps/Map.i
+	@echo ... src/Items/Maps/Map.s
+	@echo ... src/Items/Mountable.obj
+	@echo ... src/Items/Mountable.i
+	@echo ... src/Items/Mountable.s
 	@echo ... src/MyGame.obj
 	@echo ... src/MyGame.i
 	@echo ... src/MyGame.s

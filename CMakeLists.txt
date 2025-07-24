@@ -29,6 +29,12 @@ add_executable(qt_programming_2024 WIN32
     src/Items/Characters/Link.cpp
     src/Items/Characters/Link.h
     assets/assets.qrc  # 修正：assets与src同级，非Resources下
+    src/Items/Maps/Battlefield.cpp
+    src/Items/Maps/Battlefield.h
+    src/Items/Maps/Map.cpp
+    src/Items/Maps/Map.h
+    src/Items/Mountable.cpp
+    src/Items/Mountable.h
 )
 
 # 链接Qt库
