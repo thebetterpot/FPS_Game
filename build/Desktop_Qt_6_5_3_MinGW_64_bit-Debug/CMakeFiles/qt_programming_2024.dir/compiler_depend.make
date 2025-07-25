@@ -2386,6 +2386,7 @@ CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj: C:/Users/gyh4
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
+  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsRectItem \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
@@ -3948,6 +3949,8 @@ D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc:
 
 D:/Qt/6.5.3/mingw_64/include/QtWidgets/qapplication.h:
+
+D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsRectItem:
 
 D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h:
 

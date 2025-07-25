@@ -385,4 +385,5 @@ CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtCore/QStringLiteral \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qstringliteral.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/QElapsedTimer \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qelapsedtimer.h
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qelapsedtimer.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsRectItem

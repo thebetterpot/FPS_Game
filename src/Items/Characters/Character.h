@@ -8,7 +8,7 @@
 
 class Character : public QObject, public QGraphicsItem {
     Q_OBJECT
-    Q_INTERFACES(QGraphicsItem) // 声明实现QGraphicsItem接口
+    Q_INTERFACES(QGraphicsItem)
 
 public:
     explicit Character(int playerId, const QString& spritePath, QGraphicsItem *parent = nullptr);
@@ -56,6 +56,14 @@ private:
     bool m_inAir = false;         // 空中状态
     qreal m_gravity = 0;          // 重力加速度
     qreal m_groundY = 0;          // 地面Y坐标
+
+    // 新增：跳跃上升阶段控制
+    int m_ascendTime = 0;          // 当前上升时长（毫秒）
+    const int m_maxAscendTime = 400; // 固定上升时长（300毫秒，可调整）
+    const qreal m_ascendSpeed = -12; // 上升阶段匀速速度（负号表示向上）
+
+    // 新增：保存下蹲前的朝向（0=左，1=右）
+    int m_lastFacingRow = 1;  // 默认朝右
 };
 
 #endif // CHARACTER_H

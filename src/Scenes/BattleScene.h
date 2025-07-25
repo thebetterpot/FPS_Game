@@ -9,21 +9,25 @@
 class BattleScene : public QGraphicsScene {
     Q_OBJECT
 public:
-    static const int SCENE_WIDTH = 1280;  // 场景宽度
-    static const int SCENE_HEIGHT = 720;  // 场景高度
+    static const int SCENE_WIDTH = 1280;
+    static const int SCENE_HEIGHT = 720;
 
     explicit BattleScene(QObject *parent = nullptr);
     ~BattleScene() override;
 
-    void startLoop(); // 启动游戏循环
+    void startLoop();
+
+    // 新增：重写场景按键事件
+    void keyPressEvent(QKeyEvent *event) override;
+    void keyReleaseEvent(QKeyEvent *event) override;
 
 private slots:
-    void update(int deltaTime); // 每帧更新
+    void update(int deltaTime);
 
 private:
-    Character* m_player2 = nullptr;  // 玩家2
-    Link* m_player1 = nullptr;       // 玩家1（Link角色）
-    QTimer* m_gameTimer = nullptr;   // 游戏定时器
+    Character* m_player2 = nullptr;
+    Link* m_player1 = nullptr;       // character1
+    QTimer* m_gameTimer = nullptr;
 };
 
 #endif // BATTLESCENE_H
