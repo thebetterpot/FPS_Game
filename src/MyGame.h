@@ -2,19 +2,19 @@
 #define MYGAME_H
 
 #include <QMainWindow>
-#include "Scenes/BattleScene.h"
 #include <QGraphicsView>
+#include "Scenes/BattleScene.h"
 
 class MyGame : public QMainWindow {
     Q_OBJECT
 
 public:
-    MyGame(QWidget *parent = nullptr);
+    MyGame(QWidget* parent = nullptr);
     ~MyGame() override;
 
 private:
-    BattleScene *battleScene; // 战斗场景
-    QGraphicsView *view;      // 图形视图
+    BattleScene* m_scene = nullptr;
+    QGraphicsView* m_view = nullptr;
 };
 
 #endif // MYGAME_H

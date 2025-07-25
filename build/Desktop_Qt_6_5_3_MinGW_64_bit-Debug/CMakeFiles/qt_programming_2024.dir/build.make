@@ -71,10 +71,8 @@ include CMakeFiles/qt_programming_2024.dir/flags.make
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/assets.qrc
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: CMakeFiles/qt_programming_2024_autogen.dir/AutoRcc_assets_GBFAFXFCVO_Info.json
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/map_tu.png
-qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/map_cao.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/character2.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/character1.png
-qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/map_bing.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: D:/Qt/6.5.3/mingw_64/./bin/rcc.exe
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: D:/Qt/6.5.3/mingw_64/./bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\build\Desktop_Qt_6_5_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for assets/assets.qrc"

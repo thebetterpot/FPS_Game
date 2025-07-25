@@ -2,10 +2,10 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: \
  C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Characters\Link.cpp \
  C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Characters\Link.h \
  C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Characters\Character.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiglobal.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qnamespace.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qglobal.h \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -139,13 +139,6 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qtresource.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qttranslation.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qversiontagging.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qtgui-config.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiexports.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qnamespace.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qtmetamacros.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs_impl.h \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory \
@@ -309,6 +302,15 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiglobal.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qtgui-config.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiexports.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qvariant.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qtextstream.h \
@@ -341,30 +343,5 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/QKeyEvent \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qevent.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qcoreevent.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qpointer.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qurl.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qeventpoint.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qvector2d.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qvectornd.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpointingdevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qinputdevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qscreen.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QList \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qlist.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QRect \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qrect.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QSize \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qsize.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QSizeF \
- D:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qnativeinterface.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qkeysequence.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h

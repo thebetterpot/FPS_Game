@@ -1,11 +1,11 @@
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.cpp.obj: \
  C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\build\Desktop_Qt_6_5_3_MinGW_64_bit-Debug\qt_programming_2024_autogen\mocs_compilation.cpp \
- C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\build\Desktop_Qt_6_5_3_MinGW_64_bit-Debug\qt_programming_2024_autogen\UVLADIE3JM/moc_MyGame.cpp \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/MyGame.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/QMainWindow \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qmainwindow.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiglobal.h \
+ C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\build\Desktop_Qt_6_5_3_MinGW_64_bit-Debug\qt_programming_2024_autogen\KRBJEFP6ZJ/moc_Character.cpp \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qnamespace.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qglobal.h \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -139,14 +139,6 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  D:/Qt/6.5.3/mingw_64/include/QtCore/qtresource.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qttranslation.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qversiontagging.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qtgui-config.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiexports.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qwidget.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qnamespace.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qtmetamacros.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs_impl.h \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory \
@@ -200,8 +192,6 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/auto_ptr.h \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qstring.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qchar.h \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
@@ -312,38 +302,58 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qmargins.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qaction.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qkeysequence.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qicon.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qsize.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpaintdevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qrect.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qpoint.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qcolor.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qrgb.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpolygon.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qregion.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qline.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiglobal.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qtgui-config.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiexports.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qvariant.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qtextstream.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qstringconverter_base.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qcontiguouscache.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qmap.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata_impl.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qset.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qhash.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qvarlengtharray.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qrect.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qmargins.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qsize.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qpoint.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpainterpath.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpolygon.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qregion.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qline.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpaintdevice.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qcolor.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qrgb.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qtmochelpers.h \
+ C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\build\Desktop_Qt_6_5_3_MinGW_64_bit-Debug\qt_programming_2024_autogen\UVLADIE3JM/moc_MyGame.cpp \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/MyGame.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/QMainWindow \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qmainwindow.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qwidget.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qaction.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qkeysequence.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qicon.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qpalette.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
@@ -353,58 +363,27 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  D:/Qt/6.5.3/mingw_64/include/QtGui/qcursor.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qbitmap.h \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtabwidget.h \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/BattleScene.h \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/Scene.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QtGlobal \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qglobal.h \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpainterpath.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/QKeyEvent \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qevent.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qcoreevent.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qpointer.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qurl.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qeventpoint.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qvector2d.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qvectornd.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpointingdevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qinputdevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qscreen.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QList \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qlist.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QRect \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qrect.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QSize \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qsize.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QSizeF \
- D:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qnativeinterface.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Link.h \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsView \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsview.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qscrollarea.h \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qframe.h \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qtmochelpers.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/BattleScene.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Maps/Battlefield.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Maps/Map.h \
  C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\build\Desktop_Qt_6_5_3_MinGW_64_bit-Debug\qt_programming_2024_autogen\SNE2VJ5FQV/moc_BattleScene.cpp \
  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/BattleScene.h \
  C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\build\Desktop_Qt_6_5_3_MinGW_64_bit-Debug\qt_programming_2024_autogen\SNE2VJ5FQV/moc_Scene.cpp \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/Scene.h
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/Scene.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/QtGlobal \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qglobal.h

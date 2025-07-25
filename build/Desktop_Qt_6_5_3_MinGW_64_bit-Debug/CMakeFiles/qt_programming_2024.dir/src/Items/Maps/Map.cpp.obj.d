@@ -1,8 +1,8 @@
 CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Map.cpp.obj: \
  C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Maps\Map.cpp \
  C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Maps\Map.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiglobal.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qglobal.h \
@@ -308,48 +308,47 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Map.cpp.obj: \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qpoint.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qrect.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qmargins.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qsize.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qcolor.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qrgb.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpaintdevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpolygon.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qregion.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qline.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QPointF \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qpoint.h \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Item.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qvariant.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qtextstream.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qstringconverter_base.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qcontiguouscache.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qmap.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata_impl.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qset.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qhash.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qvarlengtharray.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qrect.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qmargins.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qsize.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qpoint.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qpainterpath.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpolygon.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qregion.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qline.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpaintdevice.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qcolor.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qrgb.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/QPainter \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/QDebug \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h

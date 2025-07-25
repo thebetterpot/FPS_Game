@@ -35,6 +35,7 @@ add_executable(qt_programming_2024 WIN32
     src/Items/Maps/Map.h
     src/Items/Mountable.cpp
     src/Items/Mountable.h
+
 )
 
 # 链接Qt库

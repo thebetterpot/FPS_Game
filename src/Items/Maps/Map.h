@@ -1,24 +1,21 @@
-//
-// Created by gerw on 8/21/24.
-//
+#ifndef MAP_H
+#define MAP_H
 
-#ifndef QT_PROGRAMMING_2024_MAP_H
-#define QT_PROGRAMMING_2024_MAP_H
+#include <QGraphicsItem>
+#include <QPixmap>
 
-#include <QGraphicsScene>
-#include <QPointF>
-#include "../Item.h"
-
-class Map : public Item {
+class Map : public QGraphicsItem {
 public:
-    explicit Map(QGraphicsItem *parent = nullptr, const QString &pixmapPath = "");
+    explicit Map(QGraphicsItem* parent = nullptr);
 
-    void scaleToFitScene(QGraphicsScene *scene);
+    // 加载背景图
+    bool loadBackground(const QString& resourcePath);
 
-    virtual qreal getFloorHeight(); // Need to rewrite to support multiple platforms
+    QRectF boundingRect() const override;
+    void paint(QPainter* painter, const QStyleOptionGraphicsItem* option, QWidget* widget) override;
 
-    virtual QPointF getSpawnPos();
+private:
+    QPixmap m_background; // 背景图
 };
 
-
-#endif //QT_PROGRAMMING_2024_MAP_H
+#endif // MAP_H

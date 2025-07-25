@@ -1,39 +1,32 @@
 #ifndef BATTLESCENE_H
 #define BATTLESCENE_H
 
-#include "Scene.h"
+#include <QGraphicsScene>
+#include <QTimer>
 #include "../Items/Characters/Character.h"
-#include "../Items/Characters/Link.h"
-#include <QKeyEvent>
+#include "../Items/Maps/Battlefield.h"
 
-class BattleScene : public Scene {
+class BattleScene : public QGraphicsScene {
     Q_OBJECT
-
 public:
-    explicit BattleScene(QObject *parent = nullptr);
-
-protected:
-    void processInput() override;
-    void processMovement() override;
-    void processPicking() override;
-    void keyPressEvent(QKeyEvent *event) override;
-    void keyReleaseEvent(QKeyEvent *event) override;
-
-private:
-    // 场景尺寸常量
     static const int SCENE_WIDTH = 1280;
     static const int SCENE_HEIGHT = 720;
 
-    // 角色指针
-    Character *player1 = nullptr;  // Link
-    Character *player2 = nullptr;  // 通用角色
+    explicit BattleScene(QObject* parent = nullptr);
+    void startLoop(); // 启动游戏循环
 
-    // 输入状态
-    bool p1Left = false, p1Right = false, p1Crouch = false, p1Jump = false;
-    bool p2Left = false, p2Right = false, p2Crouch = false, p2Jump = false;
+protected:
+    void keyPressEvent(QKeyEvent* event) override;
+    void keyReleaseEvent(QKeyEvent* event) override;
 
-    // 同步输入到角色
-    void syncPlayerInputs();
+private slots:
+    void gameLoop(); // 游戏主循环
+
+private:
+    Character* m_player1 = nullptr;
+    Character* m_player2 = nullptr;
+    QTimer* m_gameTimer = nullptr;
+    int m_deltaTime = 0; // 帧间隔时间（毫秒）
 };
 
 #endif // BATTLESCENE_H
