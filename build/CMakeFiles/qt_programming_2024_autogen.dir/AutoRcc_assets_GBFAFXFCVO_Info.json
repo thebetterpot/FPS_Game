@@ -13,11 +13,9 @@
 	"INCLUDE_DIR_Release" : "C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/qt_programming_2024_autogen/include_Release",
 	"INPUTS" : 
 	[
-		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/Items/HeadEquipments/CapOfTheHero/BotW_Cap_of_the_Hero_Icon.png",
-		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/Items/Armors/FlamebreakerArmor/BotW_Flamebreaker_Armor_Icon.png",
-		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/Items/Armors/OldShirt/BotW_Old_Shirt_Icon.png",
-		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/Items/Maps/Battlefield/g9tOqth.png",
-		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/Items/LegEquipments/WellWornTrousers/BotW_Well-Worn_Trousers_Icon.png"
+		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/map_tu.png",
+		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/character2.png",
+		"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/assets/character1.png"
 	],
 	"LOCK_FILE" : "C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/CMakeFiles/qt_programming_2024_autogen.dir/AutoRcc_assets_GBFAFXFCVO_Lock.lock",
 	"MULTI_CONFIG" : true,

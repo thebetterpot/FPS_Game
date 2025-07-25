@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <RCC>
-    <qresource prefix="/assets">
-        <!-- 背景地图 -->
-        <file>map_tu.png</file>
+    <qresource prefix="/">
+        <!-- 角色精灵图（144x144九宫格） -->
+        <file alias="character1.png">character1.png</file>
+        <file alias="character2.png">character2.png</file>
 
-        <!-- 角色图片 -->
-        <file>character1.png</file>
-        <file>character2.png</file>
+        <!-- 背景地图 -->
+        <file alias="map_tu.png">map_tu.png</file>
     </qresource>
 </RCC>

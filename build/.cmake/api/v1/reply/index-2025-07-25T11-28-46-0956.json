@@ -9,25 +9,25 @@
 		},
 		"paths" : 
 		{
-			"cmake" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
-			"cpack" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe",
-			"ctest" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe",
-			"root" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29"
+			"cmake" : "D:/Qt/Tools/CMake_64/bin/cmake.exe",
+			"cpack" : "D:/Qt/Tools/CMake_64/bin/cpack.exe",
+			"ctest" : "D:/Qt/Tools/CMake_64/bin/ctest.exe",
+			"root" : "D:/Qt/Tools/CMake_64/share/cmake-3.30"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 29,
+			"minor" : 30,
 			"patch" : 5,
-			"string" : "3.29.5-msvc4",
-			"suffix" : "msvc4"
+			"string" : "3.30.5",
+			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-92ae4175bda7f46e0254.json",
+			"jsonFile" : "codemodel-v2-d7037c4ce738bc7df6f9.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -36,7 +36,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-c04cf490da729515e4bf.json",
+			"jsonFile" : "cache-v2-140e5ce9345dca28a850.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -45,12 +45,12 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-d5279a94190693827069.json",
+			"jsonFile" : "cmakeFiles-v1-82afe1152ccb9678d285.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
 				"major" : 1,
-				"minor" : 0
+				"minor" : 1
 			}
 		},
 		{
@@ -91,7 +91,7 @@
 				"responses" : 
 				[
 					{
-						"jsonFile" : "cache-v2-c04cf490da729515e4bf.json",
+						"jsonFile" : "cache-v2-140e5ce9345dca28a850.json",
 						"kind" : "cache",
 						"version" : 
 						{
@@ -100,7 +100,7 @@
 						}
 					},
 					{
-						"jsonFile" : "codemodel-v2-92ae4175bda7f46e0254.json",
+						"jsonFile" : "codemodel-v2-d7037c4ce738bc7df6f9.json",
 						"kind" : "codemodel",
 						"version" : 
 						{
@@ -118,12 +118,12 @@
 						}
 					},
 					{
-						"jsonFile" : "cmakeFiles-v1-d5279a94190693827069.json",
+						"jsonFile" : "cmakeFiles-v1-82afe1152ccb9678d285.json",
 						"kind" : "cmakeFiles",
 						"version" : 
 						{
 							"major" : 1,
-							"minor" : 0
+							"minor" : 1
 						}
 					}
 				]

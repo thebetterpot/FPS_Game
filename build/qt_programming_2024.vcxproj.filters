@@ -10,7 +10,10 @@
     <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\MyGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Item.cpp">
+    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Scenes\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Scenes\BattleScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Characters\Character.cpp">
@@ -19,40 +22,13 @@
     <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Characters\Link.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Armors\Armor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\HeadEquipments\HeadEquipment.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\LegEquipments\LegEquipment.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\HeadEquipments\CapOfTheHero.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Armors\OldShirt.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\LegEquipments\WellWornTrousers.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Scenes\Scene.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Scenes\BattleScene.cpp">
+    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Maps\Battlefield.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Maps\Map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Maps\Battlefield.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Mountable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Armors\FlamebreakerArmor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\build\qt_programming_2024_autogen\GBFAFXFCVO\qrc_assets.cpp">
@@ -72,7 +48,10 @@
     <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\MyGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Item.h">
+    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Scenes\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Scenes\BattleScene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Characters\Character.h">
@@ -81,40 +60,13 @@
     <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Characters\Link.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Armors\Armor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\HeadEquipments\HeadEquipment.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\LegEquipments\LegEquipment.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\HeadEquipments\CapOfTheHero.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Armors\OldShirt.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\LegEquipments\WellWornTrousers.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Scenes\Scene.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Scenes\BattleScene.h">
+    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Maps\Battlefield.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Maps\Map.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Maps\Battlefield.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Mountable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Armors\FlamebreakerArmor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
