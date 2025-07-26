@@ -1,14 +1,6 @@
 C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/SNE2VJ5FQV/moc_BattleScene.cpp: C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/BattleScene.h \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/moc_predefs.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
-  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Link.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/QList \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/QRect \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/QSize \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/QSizeF \
   D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/q20type_traits.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qalgorithms.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qanystringview.h \
@@ -34,11 +26,8 @@ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt
   D:/Qt/6.5.3/mingw_64/include/QtCore/qcontainerfwd.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qcontainertools_impl.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qcontiguouscache.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qcoreevent.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qdatastream.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qflags.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qfloat16.h \
@@ -47,9 +36,7 @@ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt
   D:/Qt/6.5.3/mingw_64/include/QtCore/qgenericatomic.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qglobal.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qglobalstatic.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qhash.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qhashfunctions.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevice.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevicebase.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qiterable.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qiterator.h \
@@ -57,14 +44,12 @@ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt
   D:/Qt/6.5.3/mingw_64/include/QtCore/qlist.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qlogging.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qmalloc.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qmap.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qmargins.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qmath.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qmetacontainer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qmetatype.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qminmax.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qnamespace.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qnativeinterface.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qnumeric.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qobject_impl.h \
@@ -73,22 +58,18 @@ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt
   D:/Qt/6.5.3/mingw_64/include/QtCore/qoverload.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qpair.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qpoint.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qpointer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qprocessordetection.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qrect.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qrefcount.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qscopedpointer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qscopeguard.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qset.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata_impl.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qsize.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qstring.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qstringalgorithms.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qstringbuilder.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qstringconverter_base.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qstringfwd.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qstringlist.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qstringliteral.h \
@@ -105,7 +86,6 @@ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtcoreexports.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qtextstream.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtmetamacros.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtnoop.h \
@@ -117,45 +97,28 @@ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtversionchecks.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtypeinfo.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtypes.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qurl.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qutf8stringview.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qvariant.h \
-  D:/Qt/6.5.3/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qxptype_traits.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/QKeyEvent \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qcolor.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qevent.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qeventpoint.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qinputdevice.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qkeysequence.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpaintdevice.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qpainterpath.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qpointingdevice.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qpolygon.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qregion.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qrgb.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qscreen.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtgui-config.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiexports.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtguiglobal.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qvector2d.h \
-  D:/Qt/6.5.3/mingw_64/include/QtGui/qvectornd.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
-  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
-  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \

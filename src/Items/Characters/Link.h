@@ -5,9 +5,11 @@
 
 class Link : public Character {
     Q_OBJECT
+
 public:
-    // 明确声明与父类一致的构造函数参数
-    explicit Link(int playerId, const QString& spritePath, QGraphicsItem *parent = nullptr);
+    // 与Character构造函数匹配的构造函数
+    Link(int playerId, const QString& spritePath, QObject* parent = nullptr);
+    ~Link() override;
 };
 
 #endif // LINK_H

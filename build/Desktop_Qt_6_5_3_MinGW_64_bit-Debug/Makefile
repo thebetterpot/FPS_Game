@@ -226,6 +226,30 @@ src/Items/Characters/Character.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.s
 .PHONY : src/Items/Characters/Character.cpp.s
 
+src/Items/Characters/Hpbar.obj: src/Items/Characters/Hpbar.cpp.obj
+.PHONY : src/Items/Characters/Hpbar.obj
+
+# target to build an object file
+src/Items/Characters/Hpbar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Hpbar.cpp.obj
+.PHONY : src/Items/Characters/Hpbar.cpp.obj
+
+src/Items/Characters/Hpbar.i: src/Items/Characters/Hpbar.cpp.i
+.PHONY : src/Items/Characters/Hpbar.i
+
+# target to preprocess a source file
+src/Items/Characters/Hpbar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Hpbar.cpp.i
+.PHONY : src/Items/Characters/Hpbar.cpp.i
+
+src/Items/Characters/Hpbar.s: src/Items/Characters/Hpbar.cpp.s
+.PHONY : src/Items/Characters/Hpbar.s
+
+# target to generate assembly for a file
+src/Items/Characters/Hpbar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Hpbar.cpp.s
+.PHONY : src/Items/Characters/Hpbar.cpp.s
+
 src/Items/Characters/Link.obj: src/Items/Characters/Link.cpp.obj
 .PHONY : src/Items/Characters/Link.obj
 
@@ -438,6 +462,9 @@ help:
 	@echo ... src/Items/Characters/Character.obj
 	@echo ... src/Items/Characters/Character.i
 	@echo ... src/Items/Characters/Character.s
+	@echo ... src/Items/Characters/Hpbar.obj
+	@echo ... src/Items/Characters/Hpbar.i
+	@echo ... src/Items/Characters/Hpbar.s
 	@echo ... src/Items/Characters/Link.obj
 	@echo ... src/Items/Characters/Link.i
 	@echo ... src/Items/Characters/Link.s

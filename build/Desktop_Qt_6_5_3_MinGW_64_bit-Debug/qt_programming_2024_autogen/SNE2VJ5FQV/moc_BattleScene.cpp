@@ -39,31 +39,27 @@ namespace {
 struct qt_meta_stringdata_CLASSBattleSceneENDCLASS_t {};
 static constexpr auto qt_meta_stringdata_CLASSBattleSceneENDCLASS = QtMocHelpers::stringData(
     "BattleScene",
-    "update",
-    "",
-    "deltaTime"
+    "updateScene",
+    ""
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSBattleSceneENDCLASS_t {
-    uint offsetsAndSizes[8];
+    uint offsetsAndSizes[6];
     char stringdata0[12];
-    char stringdata1[7];
+    char stringdata1[12];
     char stringdata2[1];
-    char stringdata3[10];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSBattleSceneENDCLASS_t::offsetsAndSizes) + ofs), len 
 Q_CONSTINIT static const qt_meta_stringdata_CLASSBattleSceneENDCLASS_t qt_meta_stringdata_CLASSBattleSceneENDCLASS = {
     {
         QT_MOC_LITERAL(0, 11),  // "BattleScene"
-        QT_MOC_LITERAL(12, 6),  // "update"
-        QT_MOC_LITERAL(19, 0),  // ""
-        QT_MOC_LITERAL(20, 9)   // "deltaTime"
+        QT_MOC_LITERAL(12, 11),  // "updateScene"
+        QT_MOC_LITERAL(24, 0)   // ""
     },
     "BattleScene",
-    "update",
-    "",
-    "deltaTime"
+    "updateScene",
+    ""
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -83,10 +79,10 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBattleSceneENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   20,    2, 0x08,    1 /* Private */,
+       1,    0,   20,    2, 0x08,    1 /* Private */,
 
  // slots: parameters
-    QMetaType::Void, QMetaType::Int,    3,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -100,9 +96,8 @@ Q_CONSTINIT const QMetaObject BattleScene::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSBattleSceneENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<BattleScene, std::true_type>,
-        // method 'update'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>
+        // method 'updateScene'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
@@ -113,10 +108,11 @@ void BattleScene::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         auto *_t = static_cast<BattleScene *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->update((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 0: _t->updateScene(); break;
         default: ;
         }
     }
+    (void)_a;
 }
 
 const QMetaObject *BattleScene::metaObject() const

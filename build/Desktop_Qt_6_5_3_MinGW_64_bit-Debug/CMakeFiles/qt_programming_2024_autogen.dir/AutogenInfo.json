@@ -301,6 +301,12 @@
 			null
 		],
 		[
+			"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/HpBar.h",
+			"MU",
+			"KRBJEFP6ZJ/moc_HpBar.cpp",
+			null
+		],
+		[
 			"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Link.h",
 			"MU",
 			"KRBJEFP6ZJ/moc_Link.cpp",
@@ -340,6 +346,12 @@
 			"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/Scene.h",
 			"MU",
 			"SNE2VJ5FQV/moc_Scene.cpp",
+			null
+		],
+		[
+			"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/StartDialog.h",
+			"MU",
+			"UVLADIE3JM/moc_StartDialog.cpp",
 			null
 		]
 	],
@@ -414,6 +426,11 @@
 	[
 		[
 			"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Hpbar.cpp",
 			"MU",
 			null
 		],

@@ -49,7 +49,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 42,
+				"line" : 46,
 				"parent" : 0
 			},
 			{
@@ -283,7 +283,8 @@
 				13,
 				15,
 				17,
-				20
+				19,
+				23
 			]
 		}
 	],
@@ -395,7 +396,8 @@
 				13,
 				15,
 				17,
-				20
+				19,
+				23
 			]
 		},
 		{
@@ -409,7 +411,9 @@
 				11,
 				14,
 				16,
-				18
+				18,
+				20,
+				21
 			]
 		},
 		{
@@ -423,15 +427,15 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				19
+				22
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				21,
-				22
+				24,
+				25
 			]
 		}
 	],
@@ -541,6 +545,22 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/Items/Mountable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Items/Characters/Hpbar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Items/Characters/HpBar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/StarDialog.h",
 			"sourceGroupIndex" : 1
 		},
 		{

@@ -341,31 +341,15 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/QKeyEvent \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qevent.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qcoreevent.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qpointer.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qurl.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qeventpoint.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qvector2d.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qvectornd.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpointingdevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qinputdevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qscreen.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QList \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qlist.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QRect \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qrect.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QSize \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qsize.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QSizeF \
- D:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qnativeinterface.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qkeysequence.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QObject
+ D:/Qt/6.5.3/mingw_64/include/QtGui/QPainter \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h

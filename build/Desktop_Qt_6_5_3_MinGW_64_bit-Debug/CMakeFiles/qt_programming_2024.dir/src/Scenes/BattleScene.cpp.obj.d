@@ -334,8 +334,7 @@ CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qvariant.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h \
@@ -349,6 +348,7 @@ CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qvarlengtharray.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qpainterpath.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsRectItem \
  D:/Qt/6.5.3/mingw_64/include/QtGui/QKeyEvent \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qevent.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qcoreevent.h \
@@ -374,16 +374,18 @@ CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qnativeinterface.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qkeysequence.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Link.h \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
  D:/Qt/6.5.3/mingw_64/include/QtCore/QDebug \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QStringLiteral \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qstringliteral.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QElapsedTimer \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qelapsedtimer.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsRectItem
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/QPainter \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Link.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/HpBar.h

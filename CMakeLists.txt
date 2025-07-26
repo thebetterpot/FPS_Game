@@ -36,6 +36,10 @@ add_executable(qt_programming_2024 WIN32
     src/Items/Mountable.cpp
     src/Items/Mountable.h
 
+    src/Items/Characters/HpBar.cpp
+    src/Items/Characters/HpBar.h
+    src/StartDialog.h
+
 )
 
 # 链接Qt库

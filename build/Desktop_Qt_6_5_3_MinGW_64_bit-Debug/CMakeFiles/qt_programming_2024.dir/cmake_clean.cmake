@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj"
   "CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj.d"
+  "CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Hpbar.cpp.obj"
+  "CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Hpbar.cpp.obj.d"
   "CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj"
   "CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj.d"
   "CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Battlefield.cpp.obj"

@@ -359,39 +359,6 @@ CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
- D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpainterpath.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/QKeyEvent \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qevent.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qcoreevent.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qiodevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qpointer.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qurl.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qeventpoint.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qvector2d.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qvectornd.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpointingdevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qinputdevice.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qscreen.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QList \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qlist.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QRect \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qrect.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QSize \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qsize.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QSizeF \
- D:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qnativeinterface.h \
- D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
- D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Link.h \
- C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsView \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsview.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
