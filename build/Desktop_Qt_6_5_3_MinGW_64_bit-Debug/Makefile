@@ -346,6 +346,54 @@ src/Items/Mountable.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Mountable.cpp.s
 .PHONY : src/Items/Mountable.cpp.s
 
+src/Items/Projectile.obj: src/Items/Projectile.cpp.obj
+.PHONY : src/Items/Projectile.obj
+
+# target to build an object file
+src/Items/Projectile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Projectile.cpp.obj
+.PHONY : src/Items/Projectile.cpp.obj
+
+src/Items/Projectile.i: src/Items/Projectile.cpp.i
+.PHONY : src/Items/Projectile.i
+
+# target to preprocess a source file
+src/Items/Projectile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Projectile.cpp.i
+.PHONY : src/Items/Projectile.cpp.i
+
+src/Items/Projectile.s: src/Items/Projectile.cpp.s
+.PHONY : src/Items/Projectile.s
+
+# target to generate assembly for a file
+src/Items/Projectile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Projectile.cpp.s
+.PHONY : src/Items/Projectile.cpp.s
+
+src/Items/Weapon.obj: src/Items/Weapon.cpp.obj
+.PHONY : src/Items/Weapon.obj
+
+# target to build an object file
+src/Items/Weapon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapon.cpp.obj
+.PHONY : src/Items/Weapon.cpp.obj
+
+src/Items/Weapon.i: src/Items/Weapon.cpp.i
+.PHONY : src/Items/Weapon.i
+
+# target to preprocess a source file
+src/Items/Weapon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapon.cpp.i
+.PHONY : src/Items/Weapon.cpp.i
+
+src/Items/Weapon.s: src/Items/Weapon.cpp.s
+.PHONY : src/Items/Weapon.s
+
+# target to generate assembly for a file
+src/Items/Weapon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapon.cpp.s
+.PHONY : src/Items/Weapon.cpp.s
+
 src/MyGame.obj: src/MyGame.cpp.obj
 .PHONY : src/MyGame.obj
 
@@ -477,6 +525,12 @@ help:
 	@echo ... src/Items/Mountable.obj
 	@echo ... src/Items/Mountable.i
 	@echo ... src/Items/Mountable.s
+	@echo ... src/Items/Projectile.obj
+	@echo ... src/Items/Projectile.i
+	@echo ... src/Items/Projectile.s
+	@echo ... src/Items/Weapon.obj
+	@echo ... src/Items/Weapon.i
+	@echo ... src/Items/Weapon.s
 	@echo ... src/MyGame.obj
 	@echo ... src/MyGame.i
 	@echo ... src/MyGame.s

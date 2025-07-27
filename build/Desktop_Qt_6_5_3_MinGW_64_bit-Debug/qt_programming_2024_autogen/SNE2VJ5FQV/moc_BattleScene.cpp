@@ -39,27 +39,51 @@ namespace {
 struct qt_meta_stringdata_CLASSBattleSceneENDCLASS_t {};
 static constexpr auto qt_meta_stringdata_CLASSBattleSceneENDCLASS = QtMocHelpers::stringData(
     "BattleScene",
-    "updateScene",
-    ""
+    "handleWeaponAttack",
+    "",
+    "WeaponType",
+    "type",
+    "position",
+    "direction",
+    "updateProjectiles",
+    "updateScene"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSBattleSceneENDCLASS_t {
-    uint offsetsAndSizes[6];
+    uint offsetsAndSizes[18];
     char stringdata0[12];
-    char stringdata1[12];
+    char stringdata1[19];
     char stringdata2[1];
+    char stringdata3[11];
+    char stringdata4[5];
+    char stringdata5[9];
+    char stringdata6[10];
+    char stringdata7[18];
+    char stringdata8[12];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSBattleSceneENDCLASS_t::offsetsAndSizes) + ofs), len 
 Q_CONSTINIT static const qt_meta_stringdata_CLASSBattleSceneENDCLASS_t qt_meta_stringdata_CLASSBattleSceneENDCLASS = {
     {
         QT_MOC_LITERAL(0, 11),  // "BattleScene"
-        QT_MOC_LITERAL(12, 11),  // "updateScene"
-        QT_MOC_LITERAL(24, 0)   // ""
+        QT_MOC_LITERAL(12, 18),  // "handleWeaponAttack"
+        QT_MOC_LITERAL(31, 0),  // ""
+        QT_MOC_LITERAL(32, 10),  // "WeaponType"
+        QT_MOC_LITERAL(43, 4),  // "type"
+        QT_MOC_LITERAL(48, 8),  // "position"
+        QT_MOC_LITERAL(57, 9),  // "direction"
+        QT_MOC_LITERAL(67, 17),  // "updateProjectiles"
+        QT_MOC_LITERAL(85, 11)   // "updateScene"
     },
     "BattleScene",
-    "updateScene",
-    ""
+    "handleWeaponAttack",
+    "",
+    "WeaponType",
+    "type",
+    "position",
+    "direction",
+    "updateProjectiles",
+    "updateScene"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -71,7 +95,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBattleSceneENDCLASS[] = {
       11,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -79,9 +103,13 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBattleSceneENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   20,    2, 0x08,    1 /* Private */,
+       1,    3,   32,    2, 0x08,    1 /* Private */,
+       7,    0,   39,    2, 0x08,    5 /* Private */,
+       8,    0,   40,    2, 0x08,    6 /* Private */,
 
  // slots: parameters
+    QMetaType::Void, 0x80000000 | 3, QMetaType::QPointF, QMetaType::QReal,    4,    5,    6,
+    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
@@ -96,6 +124,13 @@ Q_CONSTINIT const QMetaObject BattleScene::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSBattleSceneENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<BattleScene, std::true_type>,
+        // method 'handleWeaponAttack'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<WeaponType, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QPointF, std::false_type>,
+        QtPrivate::TypeAndForceComplete<qreal, std::false_type>,
+        // method 'updateProjectiles'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'updateScene'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
@@ -108,11 +143,12 @@ void BattleScene::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         auto *_t = static_cast<BattleScene *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->updateScene(); break;
+        case 0: _t->handleWeaponAttack((*reinterpret_cast< std::add_pointer_t<WeaponType>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QPointF>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<qreal>>(_a[3]))); break;
+        case 1: _t->updateProjectiles(); break;
+        case 2: _t->updateScene(); break;
         default: ;
         }
     }
-    (void)_a;
 }
 
 const QMetaObject *BattleScene::metaObject() const
@@ -134,13 +170,13 @@ int BattleScene::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 3;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 3;
     }
     return _id;
 }

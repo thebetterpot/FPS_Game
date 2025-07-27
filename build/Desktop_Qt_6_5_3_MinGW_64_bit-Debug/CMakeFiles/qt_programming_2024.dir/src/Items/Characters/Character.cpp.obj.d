@@ -352,6 +352,11 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Weapon.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Projectile.h \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/QList \
@@ -359,6 +364,5 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtCore/QDebug \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h \
  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Scenes/BattleScene.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
- D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Weapon.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Projectile.h

@@ -5,6 +5,8 @@
 #include <QObject>
 #include <QPixmap>
 #include <QPainter>
+#include "../Weapon.h"
+#include "../Projectile.h"
 
 class Character : public QObject, public QGraphicsItem {
     Q_OBJECT
@@ -38,6 +40,10 @@ public:
 
     // 新增：判断是否站在冰块顶部
     bool isOnIce() const;
+
+    void pickUpWeapon(Weapon* weapon);
+    void attackWithWeapon();
+    Weapon* getCurrentWeapon() const;
 
 private:
     int m_playerId;
@@ -82,6 +88,21 @@ private:
     const int m_iceSpeedBoostDuration = 500;
     bool m_iceSpeedBoostActive = false;
     bool m_iceSpeedBoostWasActive = false; // 新增：标记是否刚离开冰块
+
+    // 新增：草地区域常量（x:432~1082，y:180~230）
+    static const qreal GRASS_LEFT;
+    static const qreal GRASS_RIGHT;
+    static const qreal GRASS_TOP;
+    static const qreal GRASS_BOTTOM;
+
+    int m_jumpCooldown;           // 当前冷却剩余时间（毫秒）
+    const int m_jumpCooldownDuration = 100; // 跳跃间隔（0.1秒）
+
+    Weapon* m_currentWeapon;
+    QList<Weapon*> m_inventory; // 武器库存
+    qreal m_facingDirection; // 1为右, -1为左
+
+    void detectAndPickupWeapons();
 };
 
 #endif // CHARACTER_H

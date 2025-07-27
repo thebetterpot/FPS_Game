@@ -16,7 +16,7 @@ find_package(Qt6 COMPONENTS
     REQUIRED)
 
 # 添加所有源文件和资源文件
-add_executable(qt_programming_2024 WIN32
+qt_add_executable(qt_programming_2024 WIN32
     src/main.cpp
     src/MyGame.cpp
     src/MyGame.h
@@ -39,6 +39,10 @@ add_executable(qt_programming_2024 WIN32
     src/Items/Characters/HpBar.cpp
     src/Items/Characters/HpBar.h
     src/StartDialog.h
+    src/Items/Weapon.h
+    src/Items/Weapon.cpp
+    src/Items/Projectile.h
+    src/Items/Projectile.cpp
 
 )
 

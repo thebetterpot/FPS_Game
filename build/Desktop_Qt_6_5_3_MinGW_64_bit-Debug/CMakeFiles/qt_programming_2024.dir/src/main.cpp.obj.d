@@ -358,6 +358,15 @@ CMakeFiles/qt_programming_2024.dir/src/main.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
  D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Weapon.h \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
+ D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpainterpath.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
+ D:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Projectile.h \
  C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\StartDialog.h \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QDialog \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qdialog.h \
@@ -387,6 +396,7 @@ CMakeFiles/qt_programming_2024.dir/src/main.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qabstractbutton.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/QFont \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
+ C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items/Weapon.h \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsView \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsview.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \

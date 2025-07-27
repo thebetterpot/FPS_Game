@@ -1,6 +1,9 @@
 C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/KRBJEFP6ZJ/moc_Character.cpp: C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Characters/Character.h \
   C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/qt_programming_2024_autogen/moc_predefs.h \
+  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Projectile.h \
+  C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Weapon.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
   D:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/q20type_traits.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qalgorithms.h \
@@ -12,6 +15,7 @@ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt
   D:/Qt/6.5.3/mingw_64/include/QtCore/qatomic.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qatomic_cxx11.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qbasicatomic.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qbindingstorage.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qbytearray.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -94,6 +98,7 @@ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtextstream.h \
+  D:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtmetamacros.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtnoop.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qtpreprocessorsupport.h \

@@ -2,6 +2,8 @@
 #include <QGraphicsScene>
 #include <QList>
 #include <QDebug>
+#include "../Weapon.h"
+#include "../Projectile.h"
 #include "../../Scenes/BattleScene.h"
 
 // 初始化冰块区域常量
@@ -10,16 +12,23 @@ const qreal Character::ICE_RIGHT = 644;
 const qreal Character::ICE_TOP = 340;
 const qreal Character::ICE_BOTTOM = 422;
 
+// 新增：草地区域常量定义
+const qreal Character::GRASS_LEFT = 432;    // 草地左边界
+const qreal Character::GRASS_RIGHT = 1082;  // 草地右边界
+const qreal Character::GRASS_TOP = 180;     // 草地顶边界
+const qreal Character::GRASS_BOTTOM = 230;  // 草地底边界
+
 Character::Character(int playerId, const QString& spritePath, QObject *parent)
     : QObject(parent), m_playerId(playerId),
     m_ascendSpeed(-12.0), // 向上跳跃速度为12（Y轴向上为负方向）
-    m_maxAscendTime(400), // 最长跳跃时间400毫秒
+    m_maxAscendTime(440), // 最长跳跃时间440毫秒
     m_ascendTime(0),
     m_inAir(false),
     m_gravity(0),
     m_currentHp(100), m_maxHp(100),
     m_attackCooldownMax(1000), m_attackDurationMax(300),
-    m_damageCooldownMax(500)
+    m_damageCooldownMax(500),m_jumpCooldown(0),
+    m_currentWeapon(nullptr), m_facingDirection(1) // 默认向右
 {
     // 加载角色精灵图
     m_sprite = QPixmap(spritePath);
@@ -111,72 +120,176 @@ void Character::updatePhysics(int deltaTime) {
     QPointF oldPos = pos();
     qreal charWidth = boundingRect().width();
     qreal charHeight = boundingRect().height();
-    qreal charTop = oldPos.y(); // 角色顶端Y坐标
-    qreal charBottom = oldPos.y() + charHeight; // 角色底端Y坐标
+    qreal charTop = oldPos.y();
+    qreal charBottom = oldPos.y() + charHeight;
+    qreal charLeft = oldPos.x();
+    qreal charRight = oldPos.x() + charWidth;
 
-    // 关键修复：在使用前声明charRect变量
-    QRectF charRect = boundingRect().translated(oldPos); // 角色碰撞矩形（基于旧位置）
+    QPointF currentPos = pos();
+    QRectF charBox = boundingRect().translated(currentPos); // 角色碰撞盒（随位置动态更新）
 
-    QRectF iceRect(ICE_LEFT, ICE_TOP, ICE_RIGHT - ICE_LEFT, ICE_BOTTOM - ICE_TOP);
-    bool currentlyOnIce = isOnIce();
+    // 定义冰块碰撞盒（完整矩形区域）
+    QRectF iceBox(ICE_LEFT, ICE_TOP, ICE_RIGHT - ICE_LEFT, ICE_BOTTOM - ICE_TOP);
 
-    // 加速buff逻辑（保持不变）
+    QRectF grassBox(GRASS_LEFT, GRASS_TOP, GRASS_RIGHT - GRASS_LEFT, GRASS_BOTTOM - GRASS_TOP);
+
+    // 状态变量
+    bool wasOnIce = isOnIce();
+    bool currentlyOnIce = false;
+    bool iceCollisionOccurred = false;
+    bool grassCollisionOccurred = false;
+    bool wasInAir = m_inAir;
+
+    // 1. 冰块碰撞检测与防穿透处理（核心）
+    if (charBox.intersects(iceBox)) {
+        iceCollisionOccurred = true;
+        QRectF overlap = charBox.intersected(iceBox); // 计算重叠区域
+
+        // 1.1 上方碰撞（角色落在冰块上）
+        if (overlap.height() <= overlap.width() && charBox.top() < iceBox.top()) {
+            // 将角色推到冰块上方（底部对齐冰块顶部）
+            setY(iceBox.top() - charHeight);
+            m_inAir = false;
+            m_gravity = 0;
+            m_ascendTime = 0;
+            currentlyOnIce = true;
+            qDebug() << "上方碰撞冰块，修正位置";
+        }
+        // 1.2 下方碰撞（角色顶到冰块底部）
+        else if (overlap.height() <= overlap.width() && charBox.bottom() > iceBox.bottom()) {
+            // 将角色推到冰块下方（顶部对齐冰块底部）
+            setY(iceBox.bottom());
+            m_ascendTime = m_maxAscendTime; // 强制结束跳跃
+            m_gravity = 1.0; // 开始下落
+            qDebug() << "下方碰撞冰块，修正位置";
+        }
+        // 1.3 左侧碰撞（角色撞冰块左边缘）
+        else if (overlap.width() < overlap.height() && charBox.left() < iceBox.left()) {
+            // 将角色推到冰块左侧（右边缘对齐冰块左边缘）
+            setX(iceBox.left() - charWidth);
+            qDebug() << "左侧碰撞冰块，修正位置";
+        }
+        // 1.4 右侧碰撞（角色撞冰块右边缘）
+        else if (overlap.width() < overlap.height() && charBox.right() > iceBox.right()) {
+            // 将角色推到冰块右侧（左边缘对齐冰块右边缘）
+            setX(iceBox.right());
+            qDebug() << "右侧碰撞冰块，修正位置";
+        }
+
+        // 重新计算碰撞盒（位置已修正）
+        charBox = boundingRect().translated(pos());
+    }
+
+    // 2. 新增：草地碰撞检测与防穿透处理
+    if (charBox.intersects(grassBox)) {
+        grassCollisionOccurred = true;
+        QRectF overlap = charBox.intersected(grassBox); // 计算重叠区域
+
+        // 2.1 上方碰撞（角色落在草地上方）
+        if (overlap.height() <= overlap.width() && charBox.top() < grassBox.top()) {
+            setY(grassBox.top() - charHeight); // 推到草地上方
+            m_inAir = false;
+            m_gravity = 0;
+            m_ascendTime = 0;
+            qDebug() << "上方碰撞草地，修正位置";
+        }
+        // 2.2 下方碰撞（角色顶到草地底部）
+        else if (overlap.height() <= overlap.width() && charBox.bottom() > grassBox.bottom()) {
+            setY(grassBox.bottom()); // 推到草地下方
+            m_ascendTime = m_maxAscendTime;
+            m_gravity = 1.0;
+            qDebug() << "下方碰撞草地，修正位置";
+        }
+        // 2.3 左侧碰撞（角色撞草地左边缘）
+        else if (overlap.width() < overlap.height() && charBox.left() < grassBox.left()) {
+            setX(grassBox.left() - charWidth); // 推到草地左侧
+            qDebug() << "左侧碰撞草地，修正位置";
+        }
+        // 2.4 右侧碰撞（角色撞草地右边缘）
+        else if (overlap.width() < overlap.height() && charBox.right() > grassBox.right()) {
+            setX(grassBox.right()); // 推到草地右侧
+            qDebug() << "右侧碰撞草地，修正位置";
+        }
+
+        // 重新计算碰撞盒（位置已修正）
+        charBox = boundingRect().translated(pos());
+    }
+
+    // 2. 站立状态判定（基于修正后的位置）
+    if (!iceCollisionOccurred) {
+        currentlyOnIce = isOnIce();
+    }
+
+    // 3. 超出冰块范围坠落逻辑
+    if (currentlyOnIce) {
+        qreal charLeft = charBox.left();
+        qreal charRight = charBox.right();
+        // 角色完全超出冰块左右边界时坠落
+        if (charRight <= iceBox.left() || charLeft >= iceBox.right()) {
+            m_inAir = true;
+            m_ascendTime = m_maxAscendTime;
+            m_gravity = 0.5;
+            currentlyOnIce = false;
+            qDebug() << "超出冰块范围，开始坠落";
+        }
+    }
+
+    // 4. 冰块加速buff逻辑
     if (currentlyOnIce) {
         m_iceSpeedBoostActive = true;
         m_iceSpeedBoostTimer = 0;
-        if (!m_iceSpeedBoostWasActive) {
-            qDebug() << "[冰块] 激活加速buff";
-            m_iceSpeedBoostWasActive = true;
-        }
     } else if (m_iceSpeedBoostActive) {
         m_iceSpeedBoostTimer += deltaTime;
         if (m_iceSpeedBoostTimer >= m_iceSpeedBoostDuration) {
             m_iceSpeedBoostActive = false;
-            m_iceSpeedBoostTimer = 0;
-            m_iceSpeedBoostWasActive = false;
         }
     }
 
-    // 重力与跳跃逻辑（保持不变）
     if (m_inAir) {
         m_ascendTime += deltaTime;
-        if (m_ascendTime >= m_maxAscendTime) {
+        if (m_ascendTime >= m_maxAscendTime && m_gravity < 10) {
             m_gravity += 0.2;
-            if (m_gravity > 10) m_gravity = 10;
         }
-    } else if (m_jumpPressed && !m_crouchPressed && !m_isAttacking) {
-        m_inAir = true;
-        m_gravity = 0;
-        m_ascendTime = 0;
-        qDebug() << "[跳跃] 开始跳跃（速度12，最长400ms）";
+    }
+    // 新增：落地时启动跳跃冷却
+    else if (!m_inAir && wasInAir) { // wasInAir需要提前定义为上一帧的m_inAir状态
+        m_jumpCooldown = m_jumpCooldownDuration; // 重置冷却为0.1秒
     }
 
-    // 冰块碰撞检测（现在charRect已声明，可以正常使用）
-    if (charTop <= iceRect.bottom() && charTop + velocity().y() > iceRect.bottom() &&
-        oldPos.x() + charWidth > iceRect.left() && oldPos.x() < iceRect.right()) {
-        m_ascendTime = m_maxAscendTime;
-        m_gravity = 0.5;
-        qDebug() << "[冰块碰撞] 顶端顶到冰块，结束跳跃，进入下落";
+    // 更新跳跃冷却时间
+    if (m_jumpCooldown > 0) {
+        m_jumpCooldown -= deltaTime;
+        if (m_jumpCooldown < 0) m_jumpCooldown = 0;
     }
-    else if (charBottom <= iceRect.top() && charBottom + velocity().y() > iceRect.top() &&
-             oldPos.x() + charWidth > iceRect.left() && oldPos.x() < iceRect.right()) {
-        setY(iceRect.top() - charHeight);
-        m_inAir = false;
-        m_gravity = 0;
+
+    // 修正跳跃触发条件：添加冷却检查
+    if (!m_inAir && m_jumpPressed && !m_crouchPressed && !m_isAttacking && m_jumpCooldown <= 0) {
+        m_inAir = true;
         m_ascendTime = 0;
-    }
-    // 左右碰撞检测（使用已声明的charRect）
-    else if (charRect.intersects(iceRect)) {
-        if (oldPos.x() + charWidth <= iceRect.left() && oldPos.x() + charWidth + velocity().x() > iceRect.left()) {
-            setX(iceRect.left() - charWidth);
-        } else if (oldPos.x() >= iceRect.right() && oldPos.x() + velocity().x() < iceRect.right()) {
-            setX(iceRect.right());
-        }
+        m_gravity = 0;
+        qDebug() << "跳跃触发（冷却已结束）";
     }
 
     // 应用移动
     moveBy(velocity().x(), velocity().y());
 
+    // 记录移动后的位置（关键：用移动后的位置判断是否超出）
+    qreal newLeft = x();
+    qreal newRight = x() + charWidth;
+
+    QRectF newCharBox = boundingRect().translated(pos()); // 移动后的角色碰撞盒
+
+    // 移动后再次检查：如果当前在冰块上但已超出范围，立即坠落
+    if (currentlyOnIce) {
+        if (newRight <= iceBox.left() || newLeft >= iceBox.right()) {
+            m_inAir = true;
+            m_ascendTime = m_maxAscendTime;
+            m_gravity = 0.5;
+            currentlyOnIce = false;
+            m_iceSpeedBoostActive = false; // 立即取消加速
+            qDebug() << "左右移动离开冰块范围，触发坠落";
+        }
+    }
 
     // 1. 地面范围检测（完全超出时下坠）
     if (!m_inAir) {
@@ -298,17 +411,84 @@ void Character::updatePhysics(int deltaTime) {
             }
         }
     }
+
+    if (m_crouchPressed) {
+        detectAndPickupWeapons();
+    }
+
+     updateAnimation(deltaTime);
+}
+
+// 检测并拾取武器
+void Character::detectAndPickupWeapons() {
+    if (!scene()) return;
+
+    QRectF playerBounds = boundingRect().translated(pos());
+
+    // 检查场景中所有武器
+    foreach (QGraphicsItem* item, scene()->items()) {
+        Weapon* weapon = dynamic_cast<Weapon*>(item);
+        if (weapon && weapon->isPickable()) {
+            QRectF weaponBounds = weapon->boundingRect().translated(weapon->pos());
+
+            // 碰撞且按下蹲下键
+            if (playerBounds.intersects(weaponBounds)) {
+                pickUpWeapon(weapon);
+                break;
+            }
+        }
+    }
+}
+
+void Character::pickUpWeapon(Weapon* weapon) {
+    if (!weapon || !weapon->isPickable()) return;
+
+    // 添加到库存
+    m_inventory.append(weapon);
+    weapon->setPickedUp(true);
+
+    // 如果没有当前武器,立即装备
+    if (!m_currentWeapon) {
+        m_currentWeapon = weapon;
+        qDebug() << "装备了新武器";
+    }
+}
+
+void Character::attackWithWeapon() {
+    if (!m_currentWeapon || !m_currentWeapon->canAttack()) return;
+
+    // 发射攻击信号
+    QPointF attackPos = pos();
+    // 根据面向方向调整攻击位置
+    attackPos.setX(attackPos.x() + (m_facingDirection > 0 ? boundingRect().width() : 0));
+    attackPos.setY(attackPos.y() + boundingRect().height() / 2);
+
+    emit m_currentWeapon->attack(m_currentWeapon->getType(), attackPos, m_facingDirection);
+
+    // 使用弹药并重置冷却
+    m_currentWeapon->useAmmo();
+
+    // 小刀不需要子弹,其他武器如果子弹用完则卸下
+    if (m_currentWeapon->getAmmo() == 0 && m_currentWeapon->getType() != KNIFE) {
+        m_inventory.removeOne(m_currentWeapon);
+        m_currentWeapon = m_inventory.isEmpty() ? nullptr : m_inventory.first();
+    }
+}
+
+Weapon* Character::getCurrentWeapon() const {
+    return m_currentWeapon;
 }
 
 bool Character::isOnIce() const {
-    qreal charBottom = y() + boundingRect().height();
-    qreal charLeft = x();
-    qreal charRight = x() + boundingRect().width();
+    QRectF charBox = boundingRect().translated(pos());
+    QRectF iceBox(ICE_LEFT, ICE_TOP, ICE_RIGHT - ICE_LEFT, ICE_BOTTOM - ICE_TOP);
 
-    bool yCondition = (charBottom >= ICE_TOP - 1) && (charBottom <= ICE_TOP + 1);
-    bool xCondition = (charLeft >= ICE_LEFT) && (charRight <= ICE_RIGHT);
+    // 角色底端与冰块顶端对齐，且部分在冰块上方
+    bool yOnIce = qFuzzyCompare(charBox.bottom(), iceBox.top()) ||
+                  (charBox.bottom() > iceBox.top() && charBox.bottom() < iceBox.top() + 2);
+    bool xInRange = charBox.intersects(iceBox); // 角色与冰块有交集
 
-    return yCondition && xCondition;
+    return yOnIce && xInRange;
 }
 
 void Character::updateAnimation(int deltaTime) {
@@ -341,6 +521,12 @@ void Character::updateAnimation(int deltaTime) {
         } else {
             m_currentFrame = 0; // 静止帧
         }
+    }
+
+    if (m_leftPressed) {
+        m_facingDirection = -1;
+    } else if (m_rightPressed) {
+        m_facingDirection = 1;
     }
     update(); // 触发重绘
 }

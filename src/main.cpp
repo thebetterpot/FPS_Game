@@ -1,6 +1,7 @@
 #include <QApplication>
-#include "Scenes/BattleScene.h" // 关键修正：BattleScene在Scenes文件夹下
-#include "StartDialog.h" // StartDialog在src文件夹下，直接引用
+#include "Scenes/BattleScene.h"
+#include "StartDialog.h"
+#include "Items/Weapon.h" // 引用items文件夹下的Weapon类
 #include <QGraphicsView>
 
 int main(int argc, char *argv[]) {
@@ -9,9 +10,15 @@ int main(int argc, char *argv[]) {
     // 显示启动弹窗
     StartDialog dialog;
     if (dialog.exec() == QDialog::Accepted) {
-        // 创建游戏场景（路径正确后可正常实例化）
+        // 创建游戏场景
         BattleScene scene;
         scene.setSceneRect(0, 0, BattleScene::SCENE_WIDTH, BattleScene::SCENE_HEIGHT);
+
+        // 生成武器（根据实际图片路径修改）
+        scene.spawnWeapon(RIFLE, "", QPointF(300, 300));       // 路径已在Weapon构造函数中硬编码
+        scene.spawnWeapon(SNIPER, "", QPointF(500, 300));
+        scene.spawnWeapon(KNIFE, "", QPointF(700, 300));
+        scene.spawnWeapon(BALL, "", QPointF(900, 300));
 
         // 创建视图并显示
         QGraphicsView view(&scene);

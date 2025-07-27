@@ -4,6 +4,9 @@
 #include <QGraphicsScene>
 #include <QTimer>
 
+#include "../Items/Weapon.h"
+#include "../Items/Projectile.h"
+
 // 提前声明
 class Character;
 class Link;
@@ -20,12 +23,17 @@ public:
     explicit BattleScene(QObject *parent = nullptr);
     ~BattleScene() override;
 
+    void spawnWeapon(WeaponType type, QPointF position);
+    void spawnWeapon(WeaponType type, const QString& imagePath, QPointF position);
+
 protected:
     // 新增：重写键盘事件处理函数
     void keyPressEvent(QKeyEvent *event) override;
     void keyReleaseEvent(QKeyEvent *event) override;
 
 private slots:
+    void handleWeaponAttack(WeaponType type, QPointF position, qreal direction);
+    void updateProjectiles();
     // 场景更新定时器
     void updateScene();
 
@@ -35,6 +43,8 @@ private:
     QTimer* m_timer;      // 更新定时器
     HpBar* m_hpBar1;  // 新增：玩家1血条
     HpBar* m_hpBar2;  // 新增：玩家2血条
+    QList<Projectile*> m_projectiles;
+    QTimer m_projectileTimer;
 };
 
 #endif // BATTLESCENE_H

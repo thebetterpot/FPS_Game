@@ -1,5 +1,5 @@
-CMakeFiles/qt_programming_2024.dir/src/Items/Characters/HpBar.cpp.obj: \
- C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Characters\HpBar.cpp \
+CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Hpbar.cpp.obj: \
+ C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Characters\Hpbar.cpp \
  C:\Users\gyh49\Desktop\Mine\Learn_Work\2025_Summer\C_Python_Practice\FPS_Game\qt-programming-2025-master\src\Items\Characters\HpBar.h \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
  D:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
@@ -353,6 +353,11 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/HpBar.cpp.obj: \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Weapon.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
+ D:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Users/gyh49/Desktop/Mine/Learn_Work/2025_Summer/C_Python_Practice/FPS_Game/qt-programming-2025-master/src/Items/Projectile.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/QBrush \
  D:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
  D:/Qt/6.5.3/mingw_64/include/QtGui/QPen \

@@ -2,6 +2,8 @@
 #include "KRBJEFP6ZJ/moc_Character.cpp"
 #include "KRBJEFP6ZJ/moc_HpBar.cpp"
 #include "KRBJEFP6ZJ/moc_Link.cpp"
+#include "7O23G427QC/moc_Projectile.cpp"
+#include "7O23G427QC/moc_Weapon.cpp"
 #include "UVLADIE3JM/moc_MyGame.cpp"
 #include "SNE2VJ5FQV/moc_BattleScene.cpp"
 #include "SNE2VJ5FQV/moc_Scene.cpp"
